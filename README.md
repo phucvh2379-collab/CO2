@@ -65,7 +65,7 @@ Hệ thống web sử dụng **AI** và dữ liệu hành trình để **tự đ
 
 ---
 
-## 6. State Machine Logic – Logic Tính toán Thông minh
+## 6. Logic Tính toán Thông minh
 Hệ thống sử dụng **Máy trạng thái hữu hạn (Finite State Machine)** để theo dõi quá trình di chuyển, đảm bảo chỉ tính toán khí thải trong điều kiện hợp lệ.
 
 ### 🧠 Các Trạng thái của Hành Trình:
