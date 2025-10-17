@@ -1,5 +1,5 @@
 
-# Đề tài: Ứng dụng Tính Toán Khí Thải CO₂ và Hệ Thống Thử Thách Cá Nhân
+# 🌱 ĐỀ TÀI: Ứng dụng Tính toán khí thải CO₂ và Hệ thống Thử thách Cá nhân
 
 ## 1. Lý do chọn đề tài
 
@@ -41,16 +41,14 @@ Xây dựng một ứng dụng di động cho phép người dùng nhập vào c
 - **Đề xuất cải thiện**: gợi ý các hành động thay thế có lợi cho môi trường.
 - **Đăng nhập và lưu dữ liệu người dùng** để cá nhân hóa trải nghiệm.
 
----
-# 🌱 Ứng dụng: Tính toán khí thải CO₂ và Hệ thống Thử thách Cá nhân
 
-## 🧩 Mô tả hệ thống
+## 4. Mô tả hệ thống
 Hệ thống web sử dụng **AI** và dữ liệu hành trình để **tự động tính toán lượng khí thải CO₂** phát sinh từ phương tiện cá nhân.  
 Đồng thời cung cấp **hệ thống thử thách cá nhân** giúp người dùng giảm phát thải và nâng cao ý thức bảo vệ môi trường.
 
 ---
 
-## ⚙️ Tính năng chính
+## 5. Tính năng chính
 - ✅ **Upload dữ liệu hành trình** (.gpx, .csv, .json) hoặc thu thập trực tiếp từ GPS  
 - ✅ **Tính toán khí thải CO₂** dựa trên loại phương tiện và quãng đường di chuyển  
 - ✅ **State Machine Logic**: Theo dõi trạng thái hành trình (bắt đầu → di chuyển → dừng → kết thúc)  
@@ -67,7 +65,7 @@ Hệ thống web sử dụng **AI** và dữ liệu hành trình để **tự đ
 
 ---
 
-## 🔄 State Machine Logic – Logic Tính toán Thông minh
+## 6. State Machine Logic – Logic Tính toán Thông minh
 Hệ thống sử dụng **Máy trạng thái hữu hạn (Finite State Machine)** để theo dõi quá trình di chuyển, đảm bảo chỉ tính toán khí thải trong điều kiện hợp lệ.
 
 ### 🧠 Các Trạng thái của Hành Trình:
@@ -81,7 +79,7 @@ Hệ thống sử dụng **Máy trạng thái hữu hạn (Finite State Machine)
 
 ---
 
-## 🧮 Logic Tính toán
+## 7. Logic Tính toán
 - Theo dõi hành trình: chỉ tính CO₂ trong giai đoạn **IN_TRIP** hoặc **IDLE hợp lệ**  
 - Kiểm tra dữ liệu: loại bỏ **quãng đường bất thường** hoặc **GPS sai lệch**  
 - Công thức tính:
@@ -90,13 +88,13 @@ Hệ thống sử dụng **Máy trạng thái hữu hạn (Finite State Machine)
 
 ---
 
-## 🏆 Hệ thống Thử thách Cá nhân
+## 8. Hệ thống Thử thách Cá nhân
 Người dùng có thể tạo và tham gia các thử thách:
 - “Giảm 20% CO₂ trong 7 ngày”
 - “Không nổ máy chờ quá 5 phút”
 - “Tăng số chuyến đi xanh (eco-driving)”
 
-### 🎯 Theo dõi tiến độ
+### 9. Theo dõi tiến độ
 - Hiển thị phần trăm hoàn thành theo thời gian thực  
 - Cập nhật trạng thái bằng màu sắc (Xanh/Vàng/Đỏ)  
 - Trao huy hiệu khi hoàn thành thử thách  
@@ -104,7 +102,7 @@ Người dùng có thể tạo và tham gia các thử thách:
 
 ---
 
-## 💡 Ưu điểm
+## 10. Ưu điểm
 - 🎯 **Độ chính xác cao**: Loại bỏ dữ liệu nhiễu hoặc không hợp lệ  
 - 🔍 **Logic rõ ràng**: Theo dõi hành trình và phát thải thực tế  
 - 📊 **Hiển thị trực quan**: Biểu đồ, màu sắc trạng thái, thống kê rõ ràng  
@@ -112,7 +110,7 @@ Người dùng có thể tạo và tham gia các thử thách:
 
 ---
 
-## 🧾 Kết quả
+## 11. Kết quả
 Ứng dụng giúp người dùng:
 - Hiểu rõ **lượng phát thải cá nhân**
 - Khuyến khích **lái xe tiết kiệm nhiên liệu**
